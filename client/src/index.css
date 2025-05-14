@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 120vh;
+}
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://socialmediaseo.net/wp-content/uploads/2020/07/4036dbbfcdaf47a860a865c34cbed877.jpg); /* Replace with the path to your image */
+  background-size: cover;
+}
+
+
+.register-form {
+  width: 300px;
+}
+
+.register-form .ant-form-item {
+  margin-bottom: 10px;
+}
+
+.register-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-buttons .register-link {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.register-buttons .register-button {
+  margin-left: 10px;
+}
+
+/* .resgister-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} */
+/* CSS for Login page */
+.login-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://intuitivefinance.com.au/wp-content/uploads/2018/07/Making-A-Monthly-Budget.png); /* Replace with the path to your image */
+  background-size: cover;
+}
+
+.login-page::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  border: 10px ; 
+  border-radius: 10px; 
+  z-index: -1;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .ant-form-item {
+  margin-bottom: 10px;
+}
+
+.login-form .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.login-form .d-flex .register-link {
+  flex: 1;
+  text-align: left;
+}
+
+.login-form .d-flex .login-button {
+  margin-left: 10px;
+}
+
+/* CSS for Header */
+.navbar {
+  background: linear-gradient(to right, #ff6b6b, #0c00ff); /* Replace with your desired gradient colors */
+  color: #f4eded; /* Change to your desired text color */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.logout-button {
+  padding: 6px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-color: #000;
+  width: 20px;
+  height: 2px;
+}
+
+
+
+
+/* transaction  page*/
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+/*atnd icons*/
+.switch-icons {
+  border: 1px solid black rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+
+.inactive-icon {
+  color: gray;
+}
+
